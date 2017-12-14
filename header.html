@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body{
+    margin-left:50px;
+        height:80px;
+    }
+       .index-nav{
+           color: #fff;
+           height:40px;
+           line-height: 34px;
+           padding: 15px 0;
+           width:100%;
+           position:relative;
+           background:#222222;
+           border-radius: 4px;
+           opacity: 0.8;
+       }
+       .index-logo{
+           display: block;
+           width: 100px;height: 40px;
+           float: left;
+           margin:10px 20px;
+       }
+       .index-nav-list{
+           padding:0 10px;
+           list-style: none;
+       }
+        .index-nav-list li{
+            float:left;
+            margin-right: 30px;
+        }
+        .index-login{
+            float:right;
+            padding-right: 20px;
+        }
+        .index-search .index-input{
+            float: right;position: relative;
+            display: block;width:200px;height: 20px;
+            margin-top: 5px;margin-right: 10px;
+            border-right: 2px;
+            border-style: hidden;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="index-nav">
+        <a href="#" class="index-logo">
+            <img src="images/index/white-logo.png"/>
+        </a>
+        <ul class="index-nav-list">
+            <li>
+                <a href="channel.html" target="_blank">首页</a>
+            </li>
+            <li>
+                <a href="channel.html" target="_blank">频道</a>
+            </li>
+            <li>
+                <a  href="channel.html" target="_blank">系列</a>
+            </li>
+            <li>
+                <a  href="channel.html" target="_blank">幕后</a>
+            </li>
+            <li>
+                <a  href="channel.html" target="_blank">专题</a>
+            </li>
+            <li>
+                <a  href="channel.html" target="_blank">活动</a>
+            </li>
+        </ul>
+        <div class="index-login">
+          <!-- target 
+            _blank  在新窗口中打开被链接文档。
+            _self 默认。在相同的框架中打开被链接文档。
+            _parent 在父框架集中打开被链接文档。
+            _top  在整个窗口中打开被链接文档。
+            framename 在指定的框架中打开被链接文档。
+           -->
+            <a href="#">登录</a>
+            <a href="register.html" target="_blank">&nbsp;注册</a>
+        </div>
+        <form class="index-search">
+            <input type="text" class="index-input">
+        </form>
+    </div>
+</div>
+</body>
+</html>
